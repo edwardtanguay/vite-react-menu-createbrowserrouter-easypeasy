@@ -4,22 +4,29 @@
 
 ## features
 
-- Vite
-- React
-- React Router 6.4 with createBrowserRouter
-- TypeScript
-- useContext (AppContext)
-- Sass
-- Tailwind
-- ESLint
-- Prettier
-- responsive mobile menu (test: https://vite-react-menu-createbrowserrouter-context.vercel.app)
+-   Vite
+-   React
+-   React Router 6.4 with createBrowserRouter
+-   TypeScript
+-   easy-peasy Redux
+-   Sass
+-   Tailwind
+-   ESLint
+-   Prettier
+-   responsive
 
 ## setup
 
-- `npm i`
-- `npm run dev`
+-   `npm i`
+-   `npm run dev`
 
-## if you want this site without useContext implemented
 
-- [React Router 6.4 with createBrowserRouter](https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter)
+## easy-peasy Redux
+
+- easy-peasy is set up with one variable, see `/src/store`
+- [easy-peasy official documentation](https://easy-peasy.vercel.app/docs/tutorials/quick-start.html)
+- [practical example of using easy-peasy in a site I made](https://github.com/edwardtanguay/newtech2024/blob/dev/src/store/models/flashcardModel.ts) - uses state, actions and thunks
+
+## if you want to use this site with useContext instead of easy-peasy Redux
+
+-   [Vite-React Site with React Router 6.4 createBrowserRouter + Context](https://github.com/edwardtanguay/vite-react-menu-createbrowserrouter-context)
