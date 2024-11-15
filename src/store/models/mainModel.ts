@@ -3,5 +3,5 @@ export interface MainModel {
 }
 
 export const mainModel: MainModel = {
-	message: 'easypeasy-message'
+	message: 'This is the welcome page.'
 };
