@@ -1,8 +1,7 @@
-import { useContext } from "react"
-import { AppContext } from "../AppContext"
+import { useTypedStoreState } from "../store/hooks"
 
 export const PageWelcome = () => {
-	const { message } = useContext(AppContext);
+	const { message } = useTypedStoreState((state) => state.mainModel);
 
 	return (
 		<p>{message}</p>
